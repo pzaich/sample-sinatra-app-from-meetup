@@ -2,10 +2,10 @@ require 'sinatra'
 require 'twitter'
 
 Twitter.configure do |config|
-  config.consumer_key = "ZqL7ikfO1G3DVrYL6nGw"
-  config.consumer_secret = "fgXo98Gx8GMzEvxGMgGQYfAC6XlTzrYoMDPjUUUvrW8"
-  config.oauth_token = "33988646-htXX95J5dyiaPplt8R7BXjBgYjkRRESMMEDBQaQkR"
-  config.oauth_token_secret = "sigeH1t2TQ9iBTzxWEI5kdu3abaLvE4BuXSgIeeqxE"
+  config.consumer_key = YOUR_CONSUMER_KEY
+  config.consumer_secret = YOUR_CONSUMER_SECRET
+  config.oauth_token = YOUR_OAUTH_TOKEN
+  config.oauth_token_secret = YOUR_OAUTH_TOKEN_SECRET
 end
 
 get'/' do
